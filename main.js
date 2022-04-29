@@ -1,11 +1,22 @@
 // al click dell'hamburger menu chiuso
 
-let button = document.getElementById('open-menu');
-
-button.addEventListener('click',
+const openMenu = document.getElementById('open-menu');
+// rendi block il tag hamburger menu
+openMenu.addEventListener('click',
     function () {
-        let closedNav = document.getElementsByClassName('hamburger-menu');
+        const closedNav = document.getElementsByClassName('hamburger-menu');
         closedNav.item(0).className = 'hamburger-menu active';
+        console.log(closedNav);
+    }
+);
+
+// al click dell'hamburger menu aperto
+const closeMenu = document.getElementById('close-menu');
+// rendi hidden il tag hamburger menu
+closeMenu.addEventListener('click',
+    function () {
+        const closedNav = document.getElementsByClassName('hamburger-menu');
+        closedNav.item(0).className = 'hamburger-menu';
         console.log(closedNav);
     }
 );
