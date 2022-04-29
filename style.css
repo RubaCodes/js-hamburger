@@ -25,7 +25,9 @@ header {
     height: 40px;
     margin-top: 15px;
 }
-.header-right > a {
+
+/* nasconde il button hamburger menu */
+.header-right > a { 
     display: none;
 }
 .header-right ul {
@@ -97,7 +99,7 @@ header {
         color: lightgrey;
         font-size: 20px;
     }
-
+    /* // classi per far apparire il menu */
     .hamburger-menu.active {
         display: block;
     }
