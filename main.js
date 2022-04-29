@@ -1,3 +1,5 @@
+// IMPLEMENTAZIONE PURO JS SENZA TOCCARE HTML CON INDEX DELLA LISTA DI getElementsByClassName
+
 // al click dell'hamburger menu chiuso
 
 const openMenu = document.getElementById('open-menu');
